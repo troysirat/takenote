@@ -1,0 +1,453 @@
+body{
+    width: 100%;
+    margin: auto;
+}
+
+header{
+    height: 100px;
+    background: #FCFCFC;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    margin: 0 auto;
+    top: 0;
+   
+}
+
+/*Navigation*/
+
+.logo{
+    float: left;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+nav{
+    float: right;
+    padding-right: 100px;
+    padding-top: 10px;
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul{
+    background-color: #FCFCFC;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    -webkit-transition: max-height 0.4s;
+    -ms-transition: max-height 0.4s;
+    -moz-transition: max-height 0.4s;
+    -o-transition: max-height 0.4s;
+
+}
+ nav ul li{
+    display:inline-block;
+    float: left;
+    padding: 10px;
+    font-family: "sunn";
+    font-size: 50px;
+}
+
+nav a:hover {
+    color: #D3D3D3;
+}
+
+.handle{
+    width: 100%;
+    background: #FCFCFC;
+    box-sizing: border-box;
+    padding: 15px 10px;
+    cursor: pointer;
+    display: none;
+}
+
+/*Banner*/
+
+#banner{
+    width: 100%;
+    position: fixed;
+    top: 100px;
+    height:auto;
+    margin-right: auto;
+    margin-left: auto;
+    background: url("../img/ban_back.png");
+/*     picture link: http://www.morguefile.com/archive/#/?q=music*/
+    background-size: cover;
+    color: white;
+}
+        
+#banwrap{
+            width: 768px; 
+            margin: 0 auto;
+        }
+
+
+
+
+        /*Top Banner Part*/
+        #bantop{
+            text-align:center;
+            margin: 0 auto;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 25px;
+            float: left;
+            clear: both;
+            padding: 10px;
+
+        }
+        strong{
+           color: #ffa500;
+        }
+        
+        #learnul{
+            margin: 0 auto; 
+            width: 200px;
+        }
+
+       
+        #headingone{
+            display: block;
+        
+        }
+        
+        #intro{
+            display: none;
+        }
+        
+        }
+        /*Bottom Banner Part*/
+        #banbottom{
+            font-family: "Lato";
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            clear: both;
+
+        }
+
+        #banbottomwrap{
+            margin-left: 180px;
+        }
+        .clickable{
+            float: left;
+            padding: 20px;
+
+        }
+
+
+            /*Banner Button*/
+            .button {
+              border: 0;
+              background: #ffa500;
+              color: white;
+              padding: 8px 14px;
+              font-weight: bold;
+              font-size: 18px;
+              text-decoration: none;
+              box-shadow: 1px 0px #ffae19, 0px 1px #e59400,
+                          2px 1px #ffae19, 1px 2px #e59400,
+                          3px 2px #ffae19, 2px 3px #e59400,
+                          4px 3px #ffae19, 3px 4px #e59400,
+                          5px 4px #ffae19, 4px 5px #e59400,
+                          6px 5px #ffae19, 5px 6px #e59400;
+
+            }
+                .button:hover, .button:focus {
+                transform: translate(2px, 2px);
+                box-shadow: 1px 0px #ffae19, 0px 1px #e59400,
+                          2px 1px #ffae19, 1px 2px #e59400,
+                          3px 2px #ffae19, 2px 3px #e59400,
+                          4px 3px #ffae19, 3px 4px #e59400;
+              }
+              .button:active {
+                transform: translate(4px, 4px);
+                box-shadow: 1px 0px #ffae19, 0px 1px #e59400,
+                          2px 1px #ffae19, 1px 2px #e59400;
+              }
+
+
+            .animate
+            {
+                transition: all 0.1s;
+                -webkit-transition: all 0.1s;
+            }
+
+            .action-button
+            {
+                position: relative;
+                padding: 10px 40px;
+                margin: 0px 10px 10px 0px;
+                float: left;
+                border-radius: 5px;
+                font-family: "lato";
+                font-size: 20px;
+                color: #FFF;
+                text-decoration: none;	
+            }
+
+            .orange
+            {
+                background-color: #ffae19;
+                border-bottom: 5px solid #ffa500;
+                text-shadow: 0px -2px #e59400;
+            }
+
+            .action-button:active
+            {
+                transform: translate(0px,5px);
+              -webkit-transform: translate(0px,5px);
+                border-bottom: 1px solid;
+            }
+
+
+
+
+
+#content{
+    width: 100%;
+    position: relative;
+    top: 490px;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+#section{
+    float: left;
+    width: 100%;
+    background-color: #D185B1;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+#section2{
+    float: left;
+    width: 100%;
+    background-color: #faebd7;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#section3{
+    float: left;
+    width: 100%;
+    background-color: #5DBCD2;;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+#description1{
+    float: left; 
+    padding-top: 240px; 
+    padding-left: 50px; 
+    font-size: 40px;
+    background-color: #D185B1;
+
+}
+
+#iconone{
+    float: left;
+/*    visibility: hidden;*/
+}
+
+#descriptiontwo{
+
+
+}
+
+
+
+#icon2{
+
+
+}
+
+a:hover {
+    color:grey;
+
+}
+
+.column-left{ 
+    float: left; 
+    width: 25%;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.column-right{ 
+    float: left; 
+    width: 25%;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.column-center{ 
+    float: left;
+    width: 25%;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+
+/*Tablet*/
+@media screen and (max-width: 900px){
+/*  Navigation  */
+    nav {
+        padding-right: 10px; 
+    }
+    .logo{
+        float: left;
+        padding-left: 10px;
+}
+
+}
+
+
+
+
+
+/*Mobile*/
+@media screen and (max-width: 768px){
+/*Navigation */
+    .handle{
+        display: block;
+}
+    
+    .logo{
+        width: 100%;
+        text-align: center;
+}
+    
+    nav ul{
+    max-height: 0px;
+    }
+    .showing{
+    max-height: 30em;
+    }
+    
+    nav{
+        float:left;
+        padding-left: 0px;
+        width: 100%;
+        display: none;
+    
+    }
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+        
+    }
+
+
+
+
+/*Banner*/
+
+#banner{
+    top: 110px;
+}
+#banwrap{
+            width: 400px; 
+            margin: 0 auto;
+        }
+
+
+
+
+        /*Top Banner Part*/
+        #bantop{
+            text-align:center;
+            margin: 0 auto;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 25px;
+            float: left;
+            clear: both;
+            padding: 20px;
+
+        }
+      
+        
+        #learnul{
+            margin: 0 auto; 
+            width: 200px;
+        }
+        
+        #headingone{
+            display: none;
+        }
+        
+        #intro{
+            display: block;
+            font-size: 30px;
+        }
+    
+        strong{
+            padding: 5px;
+        
+        
+        }
+        
+        
+       
+        /*Bottom Banner Part*/
+        #banbottom{
+            font-family: "Lato";
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            clear: both;
+            display: none;
+
+        }
+
+        #banbottomwrap{
+            margin-left: 180px;
+        }
+        .clickable{
+            float: left;
+            padding: 20px;
+
+        }
+
+/*Content*/
+    
+    #content{
+    top: 295px;
+    
+}
+            
+    
+    .icon{
+            width: 70%;
+            padding-left: 50px;
+       
+}
+    
+    .largetext{
+    padding: -10px;
+    
+    
+    }
